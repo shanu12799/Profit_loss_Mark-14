@@ -38,5 +38,6 @@ function calculateProfitAndLoss(initial, quantity, current) {
 }
 
 function showOutput(message) {
+  console.log(message)
   outputBox.innerHTML = message;
 }
